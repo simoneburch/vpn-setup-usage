@@ -35,7 +35,7 @@ In this tutorial, we will set up a VPN using ProtonVPN's free version, run some 
 </p>
 
 <p>
-Step 1: Create a Virtual Machine in Azure - First, browse to https://whatismyaddress.com/ and make a note of this IP address (maybe in a separate text file). 
+First, browse to https://whatismyaddress.com/ and make a note of this IP address (maybe in a separate text file). 
 </p>
 <br />
 
@@ -43,7 +43,7 @@ Step 1: Create a Virtual Machine in Azure - First, browse to https://whatismyadd
 <img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Create a Resource Group.
+In https://portal.azure.com/#home go to Resource Groups and create a Resource Group.
 </p>
 <br />
 
