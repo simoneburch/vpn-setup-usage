@@ -63,7 +63,7 @@ In that Resource Group, create a Windows 10 Virtual Machine in a different geogr
 <img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/15982ef5-9efe-4f66-827e-d4d7f6e84c56" height="50%" width="50%" alt="remote desktop image"/>
 </p>
 <p>
-Use it with Remote Desktop and log in with the credentials you created with your VM. From within the VM, browse to https://whatismyaddress.com/ and make note of this different IP address (we'll compare these later).
+Use the public IP of your VM to log in via Remote Desktop. The credentials you created when setting up your VM will be the ones you use to log in to it. From within the VM, browse to https://whatismyaddress.com/ and make note of this different IP address (we'll compare these later).
 </p>
 <br />
 
