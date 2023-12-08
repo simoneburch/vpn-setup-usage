@@ -23,59 +23,47 @@ In this tutorial, we will set up a VPN using ProtonVPN's free version, run some 
 
 <h2>High-Level Steps</h2>
 
+You need to already have a subscription created in the Azure portal: https://portal.azure.com/#home
+
 - Step 1: Create a Virtual Machine in Azure
-- Step 2: Log into a VM with Remote Desktop
+- Step 2: Log in to a VM with Remote Desktop
 - Step 3: Sign up for ProtonVPN, test your VPN connection
-- Step 4: Log into the VPN, choose your server
+- Step 4: Log in to the VPN, choose your server
 
 <h2>Actions and Observations</h2>
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-
-<p>
-First, browse to https://whatismyaddress.com/ and make a note of this IP address (maybe in a separate text file). 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<p align="center">
+<img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/c749e8e0-7e4c-4b70-99aa-c4c6bb7d8951" height="15%" width="30%" alt="WhatisMyIP Image"/>
 </p>
 <p>
-In https://portal.azure.com/#home go to Resource Groups and create a Resource Group.
+First, browse to https://whatismyaddress.com/ and record this IPv4 address (maybe in a separate text file). 
 </p>
 <br />
 
+<br />
+
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Create a Windows 10 Virtual Machine in another geographic location (try another country or continent).
+  <img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/e3aeaec9-4c25-40a4-a49c-781b6cb7175d" height="30%" width="40%" alt="Resource Groups img"/> 
+In the Azure portal, create a Resource Group. 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Login to the VM with Remote Desktop.
-</p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Browse to https://whatismyaddress.com/ and make note of this different IP address (we'll compare these later).
+  <img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/eae39aa2-f3e2-4ccd-be78-d24b2bfef065" height="30%" width="40%" alt="Azure VM img"/> 
+In that Resource Group, create a Windows 10 Virtual Machine in a different geographic region than your own (try another country or continent). Copy your VM's public IP address.
 </p>
 <br />
 
+<br />
+
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/15982ef5-9efe-4f66-827e-d4d7f6e84c56" height="50%" width="50%" alt="remote desktop image"/>
 </p>
 <p>
-Step 2: Log into a VM with Remote Desktop
+Use it with Remote Desktop and log in with the credentials you created with your VM. From within the VM, browse to https://whatismyaddress.com/ and make note of this different IP address (we'll compare these later).
 </p>
 <br />
 
@@ -83,46 +71,32 @@ Step 2: Log into a VM with Remote Desktop
 <img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/9b55688d-cf98-4762-ab7e-12ee89a30017" height="50%" width="50%" alt="ProtonVPN sign up"/>
 </p>
 <p>
-Step 3: On your computer, sign up for the free version of ProtonVPN https://account.protonvpn.com/signup?plan=free&language=en
+On your computer, sign up for the free version of ProtonVPN https://account.protonvpn.com/signup?plan=free&language=en
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Within your VM, download the ProtonVPN client.
+From within your VM, download the ProtonVPN client from the website.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/bfce6109-1344-4738-be4d-f8bf677a7f2e" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Step 4: Login to the VPN and choose a VPN server in yet another country or even continent. 
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Browse to https://whatismyaddress.com/ and take note of this third IP address (It should be different from the others you've already noted).
+Log in to the VPN and choose a VPN server in another country or continent. Browse to https://whatismyaddress.com/ and take note of this third IP address (It should be different from the others you've already noted).
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Now, you can browse to Google or Amazon. Try "McDonald's near me" or "Restaurants near me" and observe the website language or location. They should correspond to where you chose to create your VM and VPN. Hopefully in the native language of the country you chose. 
+Now, you can browse to Google or Amazon. Try "McDonald's near me" or "Restaurants near me" and observe the website language or location. They should correspond to where you chose to create your VM and VPN. Hopefully, in the native language of the country you chose. 
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<p align="center">
+<img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/a27c65f3-24d0-47f3-b1d7-3e8d8fbd9703" height="60%" width="60%" alt="Three IPs"/>
 </p>
 <p>
-You should also be able to see the three different IP addresses in your notes and realize that you're essentially using a computer in three different locations around the world. :)
+You should also be able to see the three different IP addresses in your notes and realize that you're essentially using a computer in three different locations around the world from your PC. :)
 </p>
 <br />
