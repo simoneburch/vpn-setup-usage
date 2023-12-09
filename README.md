@@ -36,7 +36,7 @@ You need to already have a subscription created in the Azure portal: https://por
 <img src="https://github.com/simoneburch/vpn-setup-usage/assets/152559137/c749e8e0-7e4c-4b70-99aa-c4c6bb7d8951" height="15%" width="30%" alt="WhatisMyIP Image"/>
 </p>
 <p>
-First, browse to https://whatismyaddress.com/ and record this IPv4 address (maybe in a separate text file). 
+First, browse to https://whatismyaddress.com/ and record your PC's IPv4 address (maybe in a separate text file). 
 </p>
 <br />
 
