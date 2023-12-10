@@ -10,13 +10,12 @@ In this tutorial, we will set up a VPN using ProtonVPN's free version, run some 
 
 - ### [YouTube: Exploring the effects of a VPN on your Browsing Experience](https://www.youtube.com) -->
 
-
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure Virtual Machines
 - Remote Desktop
 - ProtonVPN
-
+  
 <h2>Operating Systems Used </h2>
 
 - Windows 10 (21H2)
