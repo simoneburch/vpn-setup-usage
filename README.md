@@ -10,7 +10,7 @@ In this tutorial, we will set up a VPN using ProtonVPN's free version, run some 
 
 - ### [YouTube: Exploring the effects of a VPN on your Browsing Experience](https://www.youtube.com) -->
 
-<h2>Environments and Technologies Used</h2>
+<h2>Environments, Technologies, and Tools Used</h2>
 
 - Microsoft Azure Virtual Machines
 - Remote Desktop
@@ -20,14 +20,14 @@ In this tutorial, we will set up a VPN using ProtonVPN's free version, run some 
 
 - Windows 10 (21H2)
 
-<h2>High-Level Steps</h2>
+<h2>Objectives and Steps</h2>
 
 You need to already have a subscription created in the Azure portal: https://portal.azure.com/#home
 
-- Step 1: Create a Virtual Machine in Azure
-- Step 2: Log in to a VM with Remote Desktop
-- Step 3: Sign up for ProtonVPN, test your VPN connection
-- Step 4: Log in to the VPN, choose your server
+- **Step 1:** Create a Virtual Machine in Azure
+- **Step 2:** Log in to the VM with Remote Desktop
+- **Step 3:** Sign up for ProtonVPN, test your VPN connection
+- **Step 4:** Log in to the VPN, choose your server
 
 <h2>Actions and Observations</h2>
 
